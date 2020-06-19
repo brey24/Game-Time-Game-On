@@ -1,0 +1,564 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	scroll-behavior: smooth;
+}
+
+/*START OF NAVBAR*/
+.navbar {
+	background-color: #455054;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: white;
+
+}
+
+.logo {
+	height: 3rem;
+	width: auto;
+
+}
+/* END OF NAVBAR */
+
+
+
+/* HEADER */
+#jumbo-landing {
+	background: 
+	/*top, transparent #92C7b0*/
+	linear-gradient(
+        rgba(0, 0, 0.5, -5),
+        rgba(0, 0.5, 0.9, 0.5)
+	     ),
+	/*bottom, image*/
+	url(../images/bg8.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+	padding-top: 18%;
+}
+
+.header-title {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 6rem;
+	opacity: 1;
+	width: 100%;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+#sub-title {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	opacity: 1;
+	font-weight: 800;
+}
+
+.btn a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+/* END OF HEADER */
+
+/*START OF MAIN CARDS*/
+
+
+#trainings {
+	background: 
+	/*top, transparent #92C7b0*/
+	linear-gradient(
+        rgba(0, 0, 0.5, -5),
+        rgba(0, 0.5, 0.9, 0.6)
+	     ),
+	/*bottom, image*/
+	url(../images/bg9.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+
+}
+
+.card {
+	opacity: .8;
+	width: 18rem;
+	
+}
+
+.card h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 1.3rem;
+}
+
+.card p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+}
+
+.card a:hover {
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+/*end of main cards*/
+
+/*---------------FOOTER ---------------*/
+footer {
+	background-color: #455054;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------DRIBBLE CSS -----------------*/
+
+/*start of carousel*/
+#carouselExampleIndicators {
+	height: 100vh;
+	width: 100vw;
+	
+
+}
+
+.carousel-item img {
+	height: 100vh;
+	width: 100vw; 
+}
+
+#dribble {
+	background-color: #393939; 
+
+}
+
+#card-dribble {
+	background: white;
+}
+
+#dribble h5 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+#dribble li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	color: black;
+	padding-bottom: 1rem;
+}
+
+#dribble img {
+	height: 13rem;
+	width: auto;
+}
+
+
+/*end of carousel*/
+
+/*----------------END OF DRIBBLE PAGE ------------*/
+
+
+/*-----------SHOOTING PAGE --------------*/
+
+#shooting {
+	background-color: #393939;
+
+}
+
+#card-shooting {
+	background: white;
+}
+
+#shooting h5 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+#shooting p {
+	font-size: 1rem;
+}
+
+#shooting li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	color: black;
+	padding-bottom: 1rem;
+}
+
+#shooting img {
+	height: 13rem;
+	width: auto;
+}
+
+
+.modal-body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	color: black;
+
+}
+
+/*-------END OF SHOOTING PAGE------------------*/
+
+/*-----------------CONDITION PAGE -----------------------*/
+#condition {
+	width: 100%;
+	background-color: #393939;
+
+}
+
+#card-condition {
+	background: white;
+}
+
+#condition h5 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+#condition p {
+	font-size: 1rem;
+}
+
+#condition li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	color: black;
+	padding-bottom: 1rem;
+}
+
+#condition img {
+	height: 13rem;
+	width: auto;
+}
+
+
+.modal-body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	color: black;
+
+}
+
+
+
+
+
+
+
+/*-------------------------ABOUT PAGE ----------------------------------*/
+
+.main-about-container {
+	min-height: 100vh;
+	background-color: #393939;
+}
+
+.main-about-container h1 {
+	color: white;
+	padding-top: 3rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 900;
+}
+
+.about-container {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	padding-bottom: 5rem;
+}
+
+.about {
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+
+
+	
+}
+
+.about img {
+	height: 20rem;
+	width: auto;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.about-info {
+	width: 50%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: justify;
+}
+
+.about-info h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	
+}
+
+.about p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	width: 100%;
+	color: lightcyan;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------END OF ABOUT---------------------*/
+
+
+
+/*tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px){
+
+	#jumbo-landing {
+		padding-top: 15rem;
+	}
+
+	.header-title {
+		font-size: 4rem;
+	}
+
+	#sub-title {
+		font-size: 1rem;
+	}
+
+	span {
+		display: none;
+	}
+
+	.card {
+		width: 80%;
+	}
+
+	.card-body {
+		width: 100%;
+		padding: 1rem;
+		text-align: left;
+		
+	}
+
+	.card h5 {
+		font-size: 1.2rem;
+		width: 100%;
+		
+		
+	}
+
+	.card p {
+		font-size: 1rem;
+
+	}
+
+	.card a {
+		
+		font-size: 1rem;
+	}
+
+	
+
+
+
+	/*----------------ABOUT US -----------------------*/
+	.about {
+		padding-top: 1rem;
+		margin-bottom: 1rem;
+		
+
+	}
+
+	.about-info {
+		width: 100%;
+	}
+
+	.about img {
+		height: 13rem;
+		width: auto;
+		text-align: center;
+	}
+
+	.about-info {
+		width: 50%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+
+	}
+
+	.about h5 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.5rem;
+		font-weight: 900;
+	}
+
+	.about p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+
+	}
+
+	#about-img1 {
+		order: 1;
+	}
+
+	#about-info2 {
+		order: 2;
+	}
+
+	/*-----------SHOOTING PAGE----------*/
+	#shooting h5 {
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		font-family: 'Raleway', sans-serif;
+		color: black;
+	}
+
+	#shooting p {
+		font-size: 1rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+	#jumbo-landing {
+		padding-top: 15rem;
+	}
+
+	.header-title {
+		font-size: 2.7rem;
+	}
+
+	#sub-title {
+		font-size: 1rem;
+	}
+
+	span {
+		display: none;
+	}
+
+
+	/*----------------ABOUT US -----------------------*/
+	.about {
+		flex-direction: column;
+		padding-top: 1rem;
+		margin-bottom: 1rem;
+		
+
+	}
+
+	.about-info {
+		width: 100%;
+	}
+
+	.about img {
+		height: 12rem;
+		width: auto;
+		text-align: center;
+	}
+
+	.about-info {
+		width: 100%;
+	}
+
+	.about h5 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.5rem;
+		font-weight: 900;
+	}
+
+	.about p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+
+	}
+
+	#about-img1 {
+		order: 2;
+	}
+
+	#about-info2 {
+		order: 1;
+	}
+
+	.card {
+		width: 80%;
+	}
+
+	#shooting h5 {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		color: black;
+		font-weight: 600;
+	}
+
+	#shooting p {
+		font-size: 1rem;
+	}
+
+}
+
+
+
+
+
+
+
+
